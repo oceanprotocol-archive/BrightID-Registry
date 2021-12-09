@@ -1,9 +1,7 @@
 # Deployment
-
-- `$ cp .env.example .env`
-- Edit the env file:
-  `PRIVATE_KEY=0xabc # replace with your private key`
+- `export NETWORK_RPC_URL='YOUR_RPC_URL'`
+- `export PRIVATE_KEY='YOUR_PRIVATE_KEY'`
 - `npm install`
 - Run the tests `npx hardhat test`
-- Try to deploy on rinkeby `npx hardhat run scripts/deploy-registry.js --network rinkeby`
-- Deploy on mainnet `npx hardhat run scripts/deploy-registry.js --network mainnet`
+- Deploy it `node scripts/deploy-registry.js`
+
